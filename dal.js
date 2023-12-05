@@ -1,6 +1,6 @@
 const MongoClient = require('mongodb').MongoClient;
 const { MONGO_USERNAME, MONGO_PASSWORD, MONGO_CLUSTER, MONGO_DATABASE } = process.env;
-const url         = 'mongodb+srv://henkemarlenes:msh020296@marlenebadbank.pbenhou.mongodb.net/?retryWrites=true&w=majority';
+const url         = 'mongodb+srv://henkemarlenes:msh020296@marlenebadbank.pbenhou.mongodb.net/test?retryWrites=true&w=majority';
 let db            = null;
  
 // connect to mongo
